@@ -18,7 +18,9 @@
     -ms-touch-action: pan-Y;
     touch-action: manipulation;
     -moz-backface-visibility: hidden;
-    /* fix firefox animation glitch */ }
+    display: flex;
+    /* fix firefox animation glitch */ 
+  }
   .owl-carousel .owl-stage:after {
     content: ".";
     display: block;

@@ -6,12 +6,13 @@
         $(".owl-carousel1").owlCarousel(
             {
                 loop:true,
-                center: true,
+                center: false,
                 margin:0,
                 responsiveClass:true,
                 nav:true,
                 autoplay: true,
                 autoplayTimeout: 1000,
+                autoWidth:true,
                 rewind: false,
                 responsive:{
                     0:{
@@ -37,6 +38,7 @@
                 center: false,
                 margin:0,
                 responsiveClass:true,
+                autoWidth:true,
                 nav:true,
                 responsive:{
                     0:{

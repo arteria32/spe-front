@@ -562,6 +562,7 @@ body {
   margin: 0 30px;
   padding: 0 20px;
   border-radius: 50px;
+  height: 250px;
 }
 .gtco-testimonials .card .card-img-top {
   max-width: 100px;
@@ -791,5 +792,50 @@ body {
   text-align: center;
   padding: 50px;
 
+
+}
+.owl-carousel 	.owl-stage {
+		display: flex;
+	}
+	.owl-carousel .owl-item {
+		display: flex;
+		flex: 1 0 auto;
+    margin: 0 20px;
+	}
+	.owl-carousel .caption {
+		display: flex;
+		flex: 1 0 auto;
+		flex-direction: column;
+	}
+	.owl-carousel .flex-text {
+		flex-grow: 1
+	}
+  .owl-carousel 	.thumbnail {
+		display: flex;
+		flex-direction: column;
+		margin: 0 15px;
+	}
+
+.sponsor-card{
+  display: flex;
+  flex-direction: column ;
+  align-items: center ;
+  justify-content: center;
+  height: 100%;
+  padding: 15px;
+  margin: 0 20px;
+  min-width: 200px !important;
+  width: 100%;
+  background: green;
+}
+.sponsor-img{
+  height: 100%;
+  
+
+}
+.sponsor-card-body{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 
 }
