@@ -854,6 +854,7 @@ body {
   position: relative;
   top: 0;
   outline: none;
+  border: 0px;
 
 }
 .submit-button:hover{
