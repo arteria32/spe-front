@@ -227,7 +227,7 @@ body {
 .gtco-banner-area a,
 .gtco-feature a,
 .gtco-features a,
-.gtco-news .owl-carousel .card a,
+.gtco-news.card a,
 #gtco-footer .submit-button {
     background-image: -moz-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
     background-image: -webkit-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
@@ -250,7 +250,7 @@ body {
 .gtco-banner-area a .fa,
 .gtco-feature a .fa,
 .gtco-features a .fa,
-.gtco-news .owl-carousel .card a .fa,
+.gtco-news .card a .fa,
 #gtco-footer .submit-button .fa {
     background: #fff;
     border-radius: 50%;
@@ -272,8 +272,7 @@ body {
 }
 
 .card {
-    border: none;
-    background: transparent !important;
+    border: none !important;
 }
 
 .gtco-banner-area {
@@ -470,8 +469,19 @@ body {
 
 .gtco-numbers-block {
     margin: 100px auto;
-    margin-bottom: 200px;
     color: #fff;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gtco-feature .row {
+    justify-content: center;
 }
 
 @media (max-width: 600px) {
@@ -483,6 +493,7 @@ body {
 @media (max-width: 1299px) {
     .gtco-numbers-block .row {
         max-width: 1000px;
+        width: 100%;
         margin: 0 auto;
     }
 }
@@ -603,8 +614,14 @@ body {
 
 .gtco-testimonials {
     position: relative;
-    margin-top: 200px;
+    margin-top: 50px;
 }
+
+.gtco-testimonials .row {
+    justify-content: flex-start;
+}
+
+.gtco-testimonials a {}
 
 @media (max-width: 767px) {
     .gtco-testimonials {
@@ -615,7 +632,7 @@ body {
 .gtco-testimonials h2 {
     font-family: "Lato-Medium";
     font-size: 36px;
-    text-align: center;
+    text-align: start;
     color: #333;
     margin-bottom: 25px;
 }
@@ -691,7 +708,6 @@ body {
 }
 
 .gtco-testimonials .active {
-    opacity: 0.5;
     transition: all 0.3s;
 }
 
@@ -1092,6 +1108,17 @@ body {
 
 h1 {
     text-align: center;
+}
+
+.container h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card-body {
