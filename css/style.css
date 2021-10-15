@@ -273,7 +273,7 @@ body {
 
 .card {
     border: none;
-    background: transparent;
+    background: transparent !important;
 }
 
 .gtco-banner-area {
@@ -1054,7 +1054,7 @@ body {
     width: 90vh;
 }
 
-#header-main-title {
+.header-main-title {
     font-size: x-large;
     color: white;
     margin: 10px;
@@ -1075,13 +1075,27 @@ body {
     text-decoration: none !important;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     width: max-content;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 @media only screen and (max-width: 375px) {
     #header-main-logo {
         width: 40vh;
     }
+}
+
+.py-4 {
+    padding: none !important;
+}
+
+#world-map-gdp {
+    height: 60vh;
+    width: 100%;
+    margin: 20px;
+}
+
+h2 {
+    text-align: center;
 }

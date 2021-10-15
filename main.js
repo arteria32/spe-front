@@ -70,9 +70,7 @@
         checkPosition();
     })(jQuery);
 
-    function get15dayFromNow() {
-        return new Date(new Date().valueOf() + 15 * 24 * 60 * 60 * 1000);
-    }
+
     $(function() {
         /* =========================================
             COUNTDOWN 4
@@ -88,6 +86,73 @@
         });
 
     });
+    var partData = {
+        "IR": 46,
+        "AZ": 19,
+        "RU": 160,
+        "PE": 2,
+        "DE": 6,
+        "CO": 3,
+        "PK": 7,
+        "TJ": 3,
+        "ID": 5,
+        "AE": 1,
+        "UA": 1,
+        "DZ": 5,
+        "RO": 5,
+        "FR": 1,
+        "IN": 3,
+        "KZ": 8,
+        "JO": 2,
+        "HR": 3,
+        "TN": 3,
+        "VE": 3,
+        "MX": 3,
+        "QA": 1,
+        "UA": 1,
+        "UG": 1,
+        "NO": 1,
+        "ME": 1,
+        "RS": 11,
+        "VN": 14,
+        "LB": 2,
+        "AT": 1,
+        "NG": 20,
+        "KE": 2,
+        "YE": 3,
+        "BY": 2,
+        "IQ": 1,
+        "CN": 1,
+        "LY": 1,
+        "EG": 1,
+        "SD": 1,
+        "SN": 1
+    }
+
+    $(function() {
+        $('#world-map-gdp').vectorMap({
+            map: 'world_mill',
+            backgroundColor: "rgba(0,0,0,0)",
+            series: {
+                regions: [{
+                    values: partData,
+                    scale: ['#71bcf7', '#006fff'],
+                    normalizeFunction: 'polynomial'
+                }]
+            },
+            regionStyle: {
+                initial: {
+                    fill: '#bbdaf7'
+                }
+            },
+            onRegionTipShow: function(e, el, code) {
+
+                el.html(el.html() + ' (Participants - ' + (partData[code] || "") + ')');
+
+            }
+        });
+    });
+
 
 }());
 
