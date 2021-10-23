@@ -1107,7 +1107,7 @@ body {
 }
 
 #world-map-gdp {
-    height: 65vh;
+    height: 70vh;
     width: 90%;
     margin: 20px;
 }
@@ -1141,4 +1141,7 @@ h1 {
     #world-map-gdp {
         height: 10vh;
     }
+}
+.none{
+    background-image: none !important;
 }
