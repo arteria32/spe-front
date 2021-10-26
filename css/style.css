@@ -1142,6 +1142,16 @@ h1 {
         height: 10vh;
     }
 }
-.none{
+
+.none {
     background-image: none !important;
+}
+
+#video {
+    display: flex;
+    justify-content: center;
+}
+
+.frame-container {
+    border-radius: 5%;
 }
