@@ -369,7 +369,6 @@ body {
 }
 
 .gtco-feature a {
-    margin-top: 20px;
     display: inline-block;
     margin: 0 30px;
 }
@@ -395,10 +394,6 @@ body {
         margin: 0 auto;
         margin-top: 200px;
     }
-}
-
-.gtco-features h2 {
-    margin-top: 200px;
 }
 
 @media (max-width: 991px) {
@@ -874,7 +869,7 @@ body {
 }
 
 #gtco-footer {
-    padding-bottom: 20px;
+    padding-top: 20vh;
 }
 
 #gtco-footer h4 {
@@ -1010,7 +1005,6 @@ body {
     margin: 0 20px;
     min-width: 200px !important;
     width: 100%;
-    background: green;
 }
 
 .sponsor-img {
@@ -1154,4 +1148,26 @@ h1 {
 
 .frame-container {
     border-radius: 5%;
+    z-index: 1000;
+}
+
+.gtco-feature .row {
+    flex-wrap: nowrap;
+}
+
+#technical-sessions a {
+    margin: auto;
+}
+
+#mining a {
+    margin: auto;
+}
+
+#sponsors-tab .card-spons {
+    display: flex;
+    justify-content: center;
+}
+
+#main-stat .card {
+    background: none;
 }
