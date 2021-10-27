@@ -179,10 +179,20 @@ body {
 }
 
 @media (max-width: 600px) {
+
     #gtco-main-nav::after {
         width: 100%;
         height: 400px;
     }
+
+    html,body{
+        overflow-x: hidden !important;
+    }
+
+    .header-main-logo{
+        width: 600px !important;
+    }
+
 }
 
 #gtco-main-nav::before {
@@ -369,6 +379,7 @@ body {
 }
 
 .gtco-feature a {
+    margin-top: 20px;
     display: inline-block;
     margin: 0 30px;
 }
@@ -394,6 +405,10 @@ body {
         margin: 0 auto;
         margin-top: 200px;
     }
+}
+
+.gtco-features h2 {
+    margin-top: 200px;
 }
 
 @media (max-width: 991px) {
@@ -431,6 +446,16 @@ body {
     .gtco-features .col-lg-8 .col {
         flex: 0 0 100%;
         max-width: 100%;
+    }
+    header{
+        width: 100%;
+    }
+    html,body{
+        width: 100% !important;
+        height: 100% !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        overflow-x: hidden !important;
     }
 }
 
@@ -486,17 +511,8 @@ body {
 }
 
 @media (max-width: 600px) {
-
     .gtco-numbers-block {
         margin-top: 100px;
-
-    }
-    #world-map-1{
-        visibility: hidden;
-        display: none;
-    }
-    body{
-        margin-left: 40px;
     }
 }
 
@@ -583,15 +599,6 @@ body {
     .gtco-numbers-block h5 {
         margin: 0;
         font-size: 18px;
-    }
-    header{
-        width: 180%;
-    }
-
-    .row a{
-        white-space: normal;
-        font-size: 14px !important;
-        margin-left: 30px !important;
     }
 }
 
@@ -887,7 +894,7 @@ body {
 }
 
 #gtco-footer {
-    padding-top: 20vh;
+    padding-bottom: 20px;
 }
 
 #gtco-footer h4 {
@@ -1023,6 +1030,7 @@ body {
     margin: 0 20px;
     min-width: 200px !important;
     width: 100%;
+    background: green;
 }
 
 .sponsor-img {
@@ -1154,38 +1162,6 @@ h1 {
         height: 10vh;
     }
 }
-
-.none {
+.none{
     background-image: none !important;
-}
-
-#video {
-    display: flex;
-    justify-content: center;
-}
-
-.frame-container {
-    border-radius: 5%;
-    z-index: 1000;
-}
-
-.gtco-feature .row {
-    flex-wrap: nowrap;
-}
-
-#technical-sessions a {
-    margin: auto;
-}
-
-#mining a {
-    margin: auto;
-}
-
-#sponsors-tab .card-spons {
-    display: flex;
-    justify-content: center;
-}
-
-#main-stat .card {
-    background: none;
 }
