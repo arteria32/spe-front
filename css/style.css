@@ -486,8 +486,17 @@ body {
 }
 
 @media (max-width: 600px) {
+
     .gtco-numbers-block {
         margin-top: 100px;
+
+    }
+    #world-map-1{
+        visibility: hidden;
+        display: none;
+    }
+    body{
+        margin-left: 40px;
     }
 }
 
@@ -574,6 +583,15 @@ body {
     .gtco-numbers-block h5 {
         margin: 0;
         font-size: 18px;
+    }
+    header{
+        width: 180%;
+    }
+
+    .row a{
+        white-space: normal;
+        font-size: 14px !important;
+        margin-left: 30px !important;
     }
 }
 
