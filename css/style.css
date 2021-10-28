@@ -149,7 +149,6 @@ body {
 #gtco-main-nav::after {
     position: absolute;
     content: "";
-    height: 600px;
     width: 900px;
     left: 49.5%;
     top: -50px;
@@ -159,7 +158,6 @@ body {
 
 @media (max-width: 1400px) {
     #gtco-main-nav::after {
-        height: 550px;
         width: 800px;
     }
 }
@@ -179,26 +177,22 @@ body {
 }
 
 @media (max-width: 600px) {
-
     #gtco-main-nav::after {
         width: 100%;
         height: 400px;
     }
-
-    html,body{
+    html,
+    body {
         overflow-x: hidden !important;
     }
-
-    .header-main-logo{
+    .header-main-logo {
         width: 600px !important;
     }
-
 }
 
 #gtco-main-nav::before {
     position: absolute;
     content: "";
-    height: 590px;
     width: 930px;
     left: 47.5%;
     top: -25px;
@@ -208,7 +202,6 @@ body {
 
 @media (max-width: 1400px) {
     #gtco-main-nav::before {
-        height: 540px;
         width: 810px;
     }
 }
@@ -447,10 +440,11 @@ body {
         flex: 0 0 100%;
         max-width: 100%;
     }
-    header{
+    header {
         width: 100%;
     }
-    html,body{
+    html,
+    body {
         width: 100% !important;
         height: 100% !important;
         margin: 0px !important;
@@ -1161,7 +1155,15 @@ h1 {
     #world-map-gdp {
         height: 10vh;
     }
+    .contentCircle {
+        position: initial !important;
+        width: 50vh;
+    }
+    .CirItem {
+        font-size: 14px
+    }
 }
-.none{
+
+.none {
     background-image: none !important;
 }
