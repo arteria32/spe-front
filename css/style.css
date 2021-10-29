@@ -502,6 +502,7 @@ body {
 
 .gtco-feature .row {
     justify-content: center;
+    flex-wrap: nowrap;
 }
 
 @media (max-width: 600px) {
@@ -598,7 +599,7 @@ body {
 
 .gtco-numbers-block p {
     font-family: "Lato-Semibold";
-    font-size: 24px;
+    font-size: 28px;
     color: #fff;
 }
 
@@ -1166,4 +1167,10 @@ h1 {
 
 .none {
     background-image: none !important;
+}
+
+#programme .row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
 }
