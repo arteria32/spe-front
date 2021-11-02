@@ -52,6 +52,7 @@ p {
     font-family: "OpenSans-Regular";
     color: #666666;
     font-size: 18px;
+    text-align: justify;
 }
 
 body {
@@ -1173,4 +1174,24 @@ h1 {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+}
+.sp-img {
+    width: 25vh;
+    height: 23vh;
+    margin: 3vh;
+    border-radius: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    padding-right: 15px;
+    text-decoration: none !important;
+    display: flex;
+    width: max-content;
+    box-shadow: 0 15px 40px 0 rgba(0, 0, 0, 0.08);
+
+}
+.sp-img-nm{
+
+    width: 23vh;
+
+
 }
