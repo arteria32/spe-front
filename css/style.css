@@ -1204,7 +1204,7 @@ h1 {
     margin-top: 100px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     #main-stat {
         visibility: hidden;
         display: none;
@@ -1219,7 +1219,7 @@ h1 {
         margin: 0px;
     }
     .image-tab {
-        margin: 0px;
+        margin-left: 50px;
     }
     #technical-sessions .row {
         flex-direction: column;
@@ -1258,6 +1258,9 @@ h1 {
     #energy4me .row {
         flex-direction: column;
     }
+    #energy4me .col-md-7 {
+        margin-left: 35px;
+    }
     #energy4me .gtco-feature .row {
         flex-direction: column;
     }
@@ -1286,6 +1289,7 @@ h1 {
     }
     #room .map-tab {
         margin-left: 20px;
+        margin-top: 100px
     }
     #room .frame-container {
         margin-left: 0px;
@@ -1294,5 +1298,22 @@ h1 {
     }
     #sponsors-tab .row {
         flex-direction: column;
+    }
+    #spec-session a {
+        width: 90%;
+        margin: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        text-align: center;
+    }
+    #spec-session .fa {
+        visibility: hidden;
+        display: none;
+        text-align: center;
+    }
+    #another-tab .col-md-5 {
+        margin-left: 25px;
     }
 }
