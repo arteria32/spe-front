@@ -186,7 +186,7 @@ body {
         overflow-x: hidden !important;
     }
     .header-main-logo {
-        width: 600px !important;
+        width: 600px ;
     }
 }
 
@@ -813,6 +813,15 @@ body {
     .gtco-news .owl-carousel .owl-nav {
         display: none !important;
     }
+    #header-main-logo {
+        width: 60vh  !important;
+    }
+}
+@media (max-width: 485px) {
+
+    #header-main-logo {
+        width: 50vh  !important;
+    }
 }
 
 .gtco-news .owl-carousel .owl-nav .owl-prev,
@@ -934,6 +943,9 @@ body {
 @media (max-width: 385px) {
     #gtco-footer .follow-us-nav a {
         padding-right: 0;
+    }
+    #header-main-logo {
+        width: 45vh !important;
     }
 }
 
