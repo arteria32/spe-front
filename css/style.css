@@ -578,19 +578,19 @@ body {
 
 .gtco-numbers-block p {
     font-family: "Lato-Semibold";
-    font-size: 28px;
+    font-size: 30px;
     color: #fff;
 }
 
 @media (max-width: 1299px) {
     .gtco-numbers-block p {
-        font-size: 18px;
+        font-size: 24px;
     }
 }
 
 @media (max-width: 991px) {
     .gtco-numbers-block p {
-        font-size: 16px;
+        font-size: 20px;
     }
 }
 
@@ -1220,6 +1220,10 @@ h1 {
     margin: 0 20px;
 }
 
+#another-tab .col-md-5 {
+    margin-left: 25px;
+}
+
 @media screen and (max-width: 700px) {
     #main-stat {
         visibility: hidden;
@@ -1328,8 +1332,5 @@ h1 {
         visibility: hidden;
         display: none;
         text-align: center;
-    }
-    #another-tab .col-md-5 {
-        margin-left: 25px;
     }
 }
