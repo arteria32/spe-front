@@ -186,7 +186,7 @@ body {
         overflow-x: hidden !important;
     }
     .header-main-logo {
-        width: 600px ;
+        width: 600px;
     }
 }
 
@@ -554,7 +554,7 @@ body {
 
 .gtco-numbers-block h5 {
     font-family: "Lato-Bold";
-    font-size: 60px;
+    font-size: 72px;
 }
 
 @media (max-width: 1299px) {
@@ -814,13 +814,13 @@ body {
         display: none !important;
     }
     #header-main-logo {
-        width: 60vh  !important;
+        width: 60vh !important;
     }
 }
-@media (max-width: 485px) {
 
+@media (max-width: 485px) {
     #header-main-logo {
-        width: 50vh  !important;
+        width: 50vh !important;
     }
 }
 
@@ -1214,6 +1214,10 @@ h1 {
     position: relative;
     overflow: hidden;
     margin-top: 100px;
+}
+
+#sponsors-tab .col-3 {
+    margin: 0 20px;
 }
 
 @media screen and (max-width: 700px) {
