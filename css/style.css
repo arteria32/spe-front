@@ -238,7 +238,7 @@ body {
     font-family: "OpenSans-Semibold";
     color: #fff;
     border-radius: 50px;
-    padding: 5px 30px;
+    padding: 5px 15px;
     display: inline-block;
     text-transform: uppercase;
     padding-right: 5px;
@@ -373,7 +373,7 @@ body {
 .gtco-feature a {
     margin-top: 20px;
     display: inline-block;
-    margin: 0 30px;
+    margin: 0px;
 }
 
 .gtco-features {
@@ -1216,6 +1216,22 @@ h1 {
     margin-top: 100px;
 }
 
+#programme p {
+    text-align: left;
+}
+
+#energy4me a {
+    margin: 10px 30px;
+}
+
+#another-tab .cover {
+    margin-left: 40px;
+}
+
+#gtco-footer .row {
+    align-items: flex-start;
+}
+
 @media screen and (max-width: 700px) {
     #main-stat {
         visibility: hidden;
@@ -1311,21 +1327,57 @@ h1 {
     #sponsors-tab .row {
         flex-direction: column;
     }
-    #spec-session a {
-        width: 90%;
+    #services .image-tab {
         margin: 0px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 5px;
-        text-align: center;
+        margin-left: 20px;
+    }
+    #spec-session a {
+        margin: 15px 0;
+        font-size: 12px;
+        padding: 5px 15px;
     }
     #spec-session .fa {
-        visibility: hidden;
-        display: none;
+        height: 24px;
+        width: 24px;
+        padding-top: 0px;
+    }
+    #technical-sessions a {
+        width: 100%;
+        margin: 15px 0;
+        font-size: 12px;
+        padding: 5px 15px;
         text-align: center;
     }
-    #another-tab .col-md-5 {
-        margin-left: 25px;
+    #technical-sessions .fa {
+        visibility: hidden;
+        display: none;
+    }
+    #technical-sessions .fa {
+        height: 24px;
+        width: 24px;
+        padding-top: 0px;
+    }
+    #another-tab .col-md-7 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #gtco-footer .row {
+        flex-direction: column;
+    }
+    #gtco-footer .col-6 {
+        margin: 20px 0px;
+        width: 100%;
+    }
+    #gtco-footer .row {
+        flex-direction: column;
+    }
+    .gtco-feature h2 {
+        font-size: 28px;
+    }
+    #registration .link-tab {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
