@@ -75,10 +75,8 @@ body {
 #gtco-main-nav .navbar-brand {
     font-family: "Lato-Black";
     text-transform: uppercase;
-    background: -webkit-linear-gradient(left, #1d3ede, #01e6f8);
-    background: -ms-linear-gradient(left, #1d3ede, #01e6f8);
-    background: -moz-linear-gradient(left, #1d3ede, #01e6f8);
-    background: -o-linear-gradient(left, #1d3ede, #01e6f8);
+    background: rgb(29,62,222);
+    background: linear-gradient(90deg, rgba(29,62,222,1) 0%, rgba(1,230,248,1) 100%);
     -webkit-background-clip: text;
     -ms-background-clip: text;
     -o-background-clip: text;
