@@ -1410,3 +1410,8 @@ h1 {
         display: none;
     }
 }
+
+#programme .text-primary {
+    background-image: none;
+    padding: 0px;
+}
