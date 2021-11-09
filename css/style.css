@@ -75,8 +75,8 @@ body {
 #gtco-main-nav .navbar-brand {
     font-family: "Lato-Black";
     text-transform: uppercase;
-    background: rgb(29,62,222);
-    background: linear-gradient(90deg, rgba(29,62,222,1) 0%, rgba(1,230,248,1) 100%);
+    background: rgb(29, 62, 222);
+    background: linear-gradient(90deg, rgba(29, 62, 222, 1) 0%, rgba(1, 230, 248, 1) 100%);
     -webkit-background-clip: text;
     -ms-background-clip: text;
     -o-background-clip: text;
@@ -1296,9 +1296,8 @@ h1 {
         padding: 5px 15px;
     }
     #energy4me .fa {
-        height: 24px;
-        width: 24px;
-        padding-top: 0px;
+        visibility: hidden;
+        display: none;
     }
     #spec-session .row {
         flex-direction: column;
@@ -1329,6 +1328,12 @@ h1 {
         margin: 0px;
         margin-left: 20px;
     }
+    #spec-session .col-md-7 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
     #spec-session a {
         margin: 15px 0;
         font-size: 12px;
@@ -1350,10 +1355,16 @@ h1 {
         visibility: hidden;
         display: none;
     }
-    #technical-sessions .fa {
-        height: 24px;
-        width: 24px;
-        padding-top: 0px;
+    #programme a {
+        width: 100%;
+        margin: 15px 0;
+        font-size: 12px;
+        padding: 5px 15px;
+        text-align: center;
+    }
+    #programme .fa {
+        visibility: hidden;
+        display: none;
     }
     #another-tab .col-md-7 {
         display: flex;
@@ -1377,5 +1388,25 @@ h1 {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    #gtco-main-nav {
+        visibility: hidden;
+        display: none;
+    }
+    #room svg {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
+    @media screen and (max-width: 700px) {
+        .map-tab .frame-container {
+            margin-top: 100px;
+        }
+    }
+    #gtco-main-nav {
+        visibility: hidden;
+        display: none;
     }
 }
