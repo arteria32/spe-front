@@ -1397,6 +1397,10 @@ h1 {
         visibility: hidden;
         display: none;
     }
+    .carousel-item .col-md-7 {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
@@ -1412,6 +1416,11 @@ h1 {
 }
 
 #programme .text-primary {
+    background-image: none;
+    padding: 0px;
+}
+
+#programme .text-dark a {
     background-image: none;
     padding: 0px;
 }
