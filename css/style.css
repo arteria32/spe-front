@@ -1355,14 +1355,14 @@ h1 {
         visibility: hidden;
         display: none;
     }
-    #programme a {
+    #programme #main-but a {
         width: 100%;
         margin: 15px 0;
         font-size: 12px;
         padding: 5px 15px;
         text-align: center;
     }
-    #programme .fa {
+    #programme #main-but .fa {
         visibility: hidden;
         display: none;
     }
