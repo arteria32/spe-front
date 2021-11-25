@@ -2,7 +2,7 @@
  * Solution by GetTemplates.co
  * URL: https://GetTemplates.co
  */
-
+@import 'js/aos-master/src/sass/aos.scss';
 @font-face {
     font-family: "Lato-Regular";
     src: url(../fonts/Lato-Regular.ttf);
@@ -184,7 +184,7 @@ body {
         overflow-x: hidden !important;
     }
     .header-main-logo {
-        width: 600px;
+        width: 100%;
     }
 }
 
@@ -432,23 +432,7 @@ body {
     }
 }
 
-@media (max-width: 600px) {
-    .gtco-features .col-lg-8 .col {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-    header {
-        width: 100%;
-    }
-    html,
-    body {
-        width: 100% !important;
-        height: 100% !important;
-        margin: 0px !important;
-        padding: 0px !important;
-        overflow-x: hidden !important;
-    }
-}
+
 
 .gtco-features .col-lg-8 .card {
     background: #fff;
